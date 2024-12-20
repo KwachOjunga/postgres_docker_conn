@@ -2,7 +2,7 @@
 name = "postgres_docker_conn"
 version = "0.1.0"
 edition = "2021"
-
+description = "A cli app that works as a postgres client"
 [dependencies]
 clap = { version = "4.5.23", features = ["derive"] }
 postgres = "0.19.9"
